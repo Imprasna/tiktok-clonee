@@ -1,0 +1,58 @@
+.videoFooter {
+    position: relative;
+    bottom: 9rem;
+    color: #fff;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.footer_text {
+    flex: 1;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.videoFooter_logo {
+    height: 50px;
+    filter: invert(1);
+    animation: spinner infinite 5s linear;
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+}
+
+.footer_text > h3 {
+    padding-bottom: 20px;
+}
+
+.footer_text > p {
+    padding-bottom: 5px;
+}
+
+.video_icon {
+    position: absolute;
+    padding-top: 0.5em;
+    /* margin-right: 1rem; */
+}
+
+.video_ticker p {
+    font-size: 1rem;
+    padding: 7px;
+}
+
+.video_ticker > .ticker {
+    height: fit-content;
+    margin-left: 2rem;
+    width: 60%;
+}
+
+.ticker p {
+    padding-top: .5rem;
+}
